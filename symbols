@@ -12,6 +12,7 @@ librepo.so.0:lr_best_checksum
 librepo.so.0:lr_char_handler
 librepo.so.0:lr_check_packages
 librepo.so.0:lr_check_repomd_xml_asc_availability
+librepo.so.0:lr_checksum_clear_cache
 librepo.so.0:lr_checksum_error_quark
 librepo.so.0:lr_checksum_fd
 librepo.so.0:lr_checksum_fd_cmp
