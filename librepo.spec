@@ -4,7 +4,7 @@
 #
 Name     : librepo
 Version  : 1.14.2
-Release  : 47
+Release  : 48
 URL      : https://github.com/rpm-software-management/librepo/archive/1.14.2/librepo-1.14.2.tar.gz
 Source0  : https://github.com/rpm-software-management/librepo/archive/1.14.2/librepo-1.14.2.tar.gz
 Summary  : Repodata downloading library
