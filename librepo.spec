@@ -4,7 +4,7 @@
 #
 Name     : librepo
 Version  : 1.14.2
-Release  : 48
+Release  : 49
 URL      : https://github.com/rpm-software-management/librepo/archive/1.14.2/librepo-1.14.2.tar.gz
 Source0  : https://github.com/rpm-software-management/librepo/archive/1.14.2/librepo-1.14.2.tar.gz
 Summary  : Repodata downloading library
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1629912375
+export SOURCE_DATE_EPOCH=1635748967
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -103,7 +103,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1629912375
+export SOURCE_DATE_EPOCH=1635748967
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/librepo
 cp %{_builddir}/librepo-1.14.2/COPYING %{buildroot}/usr/share/package-licenses/librepo/01a6b4bf79aca9b556822601186afab86e8c4fbf
