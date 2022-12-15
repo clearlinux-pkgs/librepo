@@ -1,5 +1,5 @@
 PKG_NAME := librepo
-URL = https://github.com/rpm-software-management/librepo/archive/1.14.5/librepo-1.14.5.tar.gz
+URL = https://github.com/rpm-software-management/librepo/archive/1.15.1/librepo-1.15.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
