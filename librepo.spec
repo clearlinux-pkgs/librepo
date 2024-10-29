@@ -7,7 +7,7 @@
 #
 Name     : librepo
 Version  : 1.18.0
-Release  : 58
+Release  : 59
 URL      : https://github.com/rpm-software-management/librepo/archive/1.18.0/librepo-1.18.0.tar.gz
 Source0  : https://github.com/rpm-software-management/librepo/archive/1.18.0/librepo-1.18.0.tar.gz
 Summary  : Repodata downloading library
